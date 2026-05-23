@@ -1,0 +1,36 @@
+{
+  "name": "govdata",
+  "version": "0.1.0",
+  "description": "Local MCP tools for U.S. government, FRED, and IPUMS extract APIs.",
+  "author": {
+    "name": "Felpix"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "government-data",
+    "mcp",
+    "census",
+    "bls",
+    "nih",
+    "usaspending"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "GovData",
+    "shortDescription": "Call U.S. government data APIs",
+    "longDescription": "GovData bundles a local MCP server for raw passthrough access to Data.gov, Census, BLS, USDA, Commerce, Education, DOJ/FBI, Treasury, EIA, EPA, FCC, FDIC, FEC, FTC, FDA/openFDA, GSA, govinfo, Congress.gov, NASA, NIH RePORTER, NPS, NREL, Smithsonian, USGS, FRED, USAspending, Data USA, and IPUMS extract APIs.",
+    "developerName": "Felpix",
+    "category": "Research",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Use the govdata MCP to find Census population estimates for California counties.",
+      "Use the govdata MCP to fetch BLS CPI time series data and cite the source.",
+      "Use the govdata MCP to search FRED for GDP series and fetch observations.",
+      "Use the govdata MCP to plan an IPUMS extract for ACS or CPS microdata."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
